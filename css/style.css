@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Lato:wght@300;400&family=Open+Sans:wght@300;400;600&family=Parisienne&family=Secular+One&family=Great+Vibes&family=Lora&family=Marcellus&family=Amiko&family=Petrona:ital,wght@0,100;0,200;0,300;1,100&display=swap');
+
+
+/*
+font-family: 'Parisienne', cursive;
+font-family: 'Secular One', sans-serif;
+
+.section-title::before {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 2px;
+  bottom: 11px;
+  left: calc(50% - 80px);
+  background: #E47A2E;
+}
+
+.section-title::after {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 2px;
+  bottom: 11px;
+  right: calc(50% - 80px);
+  background: #E47A2E;
+}
+*/
+
+.navbar h1 {
+    font-family: 'Great Vibes', cursive;
+}
+
+.navbar .nav-link {
+    font-family: 'Secular One', sans-serif;
+    color: white;
+}
+
+.navbar .active {
+    color: #A9A9A9;
+
+}
+
+#carouselExampleSlidesOnly:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9));
+    z-index: 1;
+
+}
+
+.d-sm-block .carousel-item img {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1f2227;
+    background-position: center;
+    object-fit: contain;
+    vertical-align: middle;
+    object-position: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.d-sm-none .carousel-item img {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1f2227;
+    background-position: center;
+    object-fit: contain;
+    vertical-align: middle;
+    object-position: center;
+    height: 100vh;
+
+}
+
+
+@media (max-width:991px) {
+    .carousel .carousel-item {
+        background-size: cover;
+        /* To make the background image looks good */
+    }
+}
+
+.covertext {
+    color: white;
+
+
+}
+
+.covertext h2 {
+    font-family: Lato;
+
+}
+
+.covertext .btn {
+    font-family: Open Sans;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.covertext .btn a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.covertext .btn a:hover {
+    color: white;
+}
+
+.profile {
+
+    background-image: url(/img/danandcarla.jpg);
+    background-size: contain;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+    height: 300px;
+    width: 300px;
+    border-radius: 30%;
+    z-index: 2;
+
+}
+
+/*
+
+.main {
+    position: relative;
+
+}
+*/
+
+
+.landing {
+    /*
+    position: absolute;
+    margin: 300px auto;
+*/
+    z-index: 2;
+    margin-top: 30vh;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .profile {
+        margin: 0 auto;
+        height: 200px;
+        width: 200px;
+    }
+
+    .landing {
+        margin-top: 25vh;
+
+    }
+}
+
+/*
+.carousel-desktop,
+.carousel-mobile {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+*/
+
+.title {
+    font-family: 'Great Vibes', cursive;
+    color: #ffffff;
+    text-align: center;
+}
+
+.title2 {
+    font-family: Great Vibes;
+
+}
+
+.subtitle {
+    font-family: Verdana;
+    font-size: 23px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.box {
+    /*    border-radius: 10px;*/
+    width: 100%;
+
+}
+
+
+
+#rsvp h5,
+#hotels h5 {
+    font-family: Lato;
+}
+
+#event h3 {
+    font-family: Lora;
+    color: white;
+}
+
+
+
+.lead {
+    /*    font-family: Marcellus;*/
+    font-family: 'Petrona', serif;
+    color: white;
+}
+
+
+
+
+.smallhead {
+
+    color: #E9DD93;
+    font-family: Open Sans;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:link:hover {
+    color: white;
+
+}
+
+
+#event button a:hover {
+    color: white;
+
+}
+
+
+.bg-darkblue {
+    background: #14374F;
+    color: #FFFFFF
+}
+
+.bg-lightgreen {
+    background: #A1C1B5;
+
+}
+
+.bg-cream {
+    background: cream;
+}
